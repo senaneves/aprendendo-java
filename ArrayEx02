@@ -1,0 +1,20 @@
+package domain;
+//aprendendo java com Loaiane Groner -- lista de exercícios Array
+public class ArrayEx02 {
+
+    public static void main(String[] args) {
+        System.out.println("hello world!");
+        
+        int size=8;
+        int[] vetA = new int[size];
+        int[] vetB = new int[vetA.length];
+        
+        for (int i = 0; i <vetA.length;i++){
+            vetA[i] = i*2;
+            vetB[i] = vetA[i]*2;
+        System.out.println(vetA[i]+" - "+ vetB[i]);
+        }
+        
+        
+}
+}
